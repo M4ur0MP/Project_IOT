@@ -1,0 +1,42 @@
+{
+  "folders": [
+	{
+		"path": "..\\..\\..\\..\\..\\VSCode"
+	},
+	{
+		"path": "..\\.."
+	},
+	{
+		"name": "Luzes",
+		"path": "..\\Luzes"
+	},
+	{
+		"path": "..\\RaspySensor"
+	},
+	{
+		"name": "Sinric_Project",
+		"path": "..\\Sinric_Project"
+	},
+	{
+		"name": "CarDuino",
+		"path": "..\\CarDuino"
+	},
+	{
+		"name": "PruebaSensorSharp",
+		"path": "..\\PruebaSensorSharp"
+	},
+	{
+		"name": "SensorO2",
+		"path": "..\\SensorO2"
+	},
+	{
+		"name": "SensorO2Nano",
+		"path": "..\\SensorO2Nano"
+	},
+	{
+		"name": "PruebaEsp8266",
+		"path": "..\\PruebaEsp8266"
+	}
+],
+  "settings": {}
+}
