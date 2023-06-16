@@ -1,1 +1,1 @@
-Projects IoT for house
+Projects IoT for home
