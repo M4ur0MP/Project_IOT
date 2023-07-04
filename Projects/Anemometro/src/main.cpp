@@ -10,8 +10,8 @@
 #define rotacionIn A0
 
 // Datos Wifi
-const char *ssid = "Guifi";
-const char *password = "redconexion";
+const char *ssid = "Guifi_2.4GHz";
+const char *password = "noteaprendaslacontrasenia";
 
 // Establecer IP, Puerta de Enlace y Máscara
 IPAddress ip(183, 153, 0, 91);
