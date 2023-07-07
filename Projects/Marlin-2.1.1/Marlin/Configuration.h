@@ -699,8 +699,8 @@
  * @section mpctemp
  */
 #if ENABLED(MPCTEMP)
-#define MPC_EDIT_MENU                             // Add MPC editing to the "Advanced Settings" menu. (~1300 bytes of flash)
-#define MPC_AUTOTUNE_MENU                         // Add MPC auto-tuning to the "Advanced Settings" menu. (~350 bytes of flash)
+#define MPC_EDIT_MENU     // Add MPC editing to the "Advanced Settings" menu. (~1300 bytes of flash)
+#define MPC_AUTOTUNE_MENU // Add MPC auto-tuning to the "Advanced Settings" menu. (~350 bytes of flash)
 
 #define MPC_MAX BANG_MAX // (0..255) Current to nozzle while MPC is active.
 #define MPC_HEATER_POWER \
@@ -732,7 +732,7 @@
 
 // For one fan and multiple hotends MPC needs to know how to apply the fan cooling effect.
 #if ENABLED(MPC_INCLUDE_FAN)
- #define MPC_FAN_0_ALL_HOTENDS
+#define MPC_FAN_0_ALL_HOTENDS
 // #define MPC_FAN_0_ACTIVE_HOTEND
 #endif
 
@@ -862,7 +862,7 @@
  * *** IT IS HIGHLY RECOMMENDED TO LEAVE THIS OPTION ENABLED! ***
  */
 #define PREVENT_COLD_EXTRUSION
-#define EXTRUDE_MINTEMP 190
+#define EXTRUDE_MINTEMP 210
 
 /**
  * Prevent a single extrusion longer than EXTRUDE_MAXLENGTH.
@@ -1847,11 +1847,11 @@
 
 // Travel limits (linear=mm, rotational=°) after homing, corresponding to endstop positions.
 #define X_MIN_POS -20
-#define Y_MIN_POS 0
+#define Y_MIN_POS 10
 #define Z_MIN_POS 0
 #define X_MAX_POS X_BED_SIZE
 #define Y_MAX_POS Y_BED_SIZE
-#define Z_MAX_POS 220
+#define Z_MAX_POS 200
 // #define I_MIN_POS 0
 // #define I_MAX_POS 50
 // #define J_MIN_POS 0
