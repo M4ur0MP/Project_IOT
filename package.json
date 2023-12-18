@@ -1,8 +1,0 @@
-{
-  "devDependencies": {
-    "@types/node": "^20.8.0"
-  },
-  "dependencies": {
-    "node-dependency-injection": "^3.1.0"
-  }
-}
